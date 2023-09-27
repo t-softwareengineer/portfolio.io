@@ -1,1 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
+@import './mixins';
+@import './modules';
+
+@media (prefers-color-scheme: dark) {
+  html { color-scheme: dark; }
+  body {
+    background: black;
+    color: white;
+  }
+}
